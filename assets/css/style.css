@@ -1,8 +1,10 @@
 body {
     background-image: url('../img/bacgroound_land.jpg');
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    cursor: default url('../img/viseur.cur') ;
 }
 
 canvas {

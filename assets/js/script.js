@@ -169,6 +169,12 @@ function addDifficultLevel() {
         }
         console.log(ravenInterval)
     }
+    if (score > 50) {
+        ravenInterval = 750
+    }
+    if (score > 75) {
+        ravenInterval = 500
+    }
 }
 
 // function conditionVictory() {
@@ -249,4 +255,11 @@ function animate(timestamp) {
 
 
 }
+
+canvas.addEventListener("mousemove", function(){
+    const viseur = '../assets/img/viseur.cur'
+    document.body.style.cursor = viseur ;
+});
+
+
 animate(0)
