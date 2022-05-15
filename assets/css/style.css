@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, red , green, blue);
+    background-image: url('../img/bacgroound_land.jpg');
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -14,5 +14,5 @@ canvas {
 }
 
 #collisionCanvas1 {
-    opacity:  0;
+    opacity: 0;
 }
